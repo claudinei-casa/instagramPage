@@ -52,6 +52,29 @@ main {
     min-width: 20rem;
 }
 
+.input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.login-input {
+    width: 80%;
+    height: 35px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    border-radius: 3px;
+    background-color: #e8f0fe;
+}
+
+.login-input::placeholder {
+    color: gray;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
 .card-signup {
     display: flex;
     align-items: center;
@@ -63,14 +86,46 @@ main {
     margin: 10px 0;
 }
 
-button {
+.button-signin {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+#button-Login {
     font-size: 14px;
     background-color: #0095f6;
     color: white;
     border: none;
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    color: #8e8e8e;
+}
+
+hr {
     width: 100%;
-    height: 40px;
-    border-radius: 5px;
+    background-color: #dbdbdb;
+    height: 0.1px;
+    border: 0 solid #dbdbdb;
+}
+
+.text-or {
+    margin: 10px;
+}
+
+.login-with-facebook {
+    color: #385185;
     font-weight: bold;
 }
 
