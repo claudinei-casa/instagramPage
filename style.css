@@ -18,6 +18,10 @@ main {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     padding: 10% 0;
     display: flex;
@@ -75,6 +79,10 @@ main {
     padding-left: 5px;
 }
 
+.login-input:hover {
+    border: 0.1;
+}
+
 .card-signup {
     display: flex;
     align-items: center;
@@ -111,6 +119,7 @@ main {
     width: 80%;
     justify-content: center;
     color: #8e8e8e;
+    margin-top: 20px;
 }
 
 hr {
@@ -121,7 +130,8 @@ hr {
 }
 
 .text-or {
-    margin: 10px;
+    margin: 0 15px;
+    font-size: 13px;
 }
 
 .login-with-facebook {
@@ -129,7 +139,25 @@ hr {
     font-weight: bold;
 }
 
-.otherReferences {
+.login-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.facebook-img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.forgot-pass {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #00376b;
+}
+
+.other-references {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -138,7 +166,9 @@ hr {
     min-width: 20rem;
 }
 
-.text-download-apps {}
+.text-download-apps {
+    margin: 10px 0px;
+}
 
 .aplle-logo {
     padding: 5px;
@@ -148,4 +178,41 @@ hr {
 .google-logo {
     padding: 5px;
     width: 130px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-items a {
+    margin: 10px;
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.footer-items {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8e8e8e;
+    font-size: 12px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .smartphone {
+        display: none;
+    }
 }
