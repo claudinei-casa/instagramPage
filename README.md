@@ -1,2 +1,2 @@
 # instagramPage
-Exercício pra relembrar alguns conceitos front-end
+Exercício DIO pra relembrar alguns conceitos front-end
